@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(220, 20, 60);
+    color: cornsilk;
+    justify-items: center;
+}
+
+h1 {
+    background-color: rgb(238, 123, 123, 0.7);
+    border: 6px solid bisque;
+    /* opacity: 0.5; */
+}
+
+h2{
+    background-color: rgb(139, 0, 0.6);
+    border: 4px solid indianred;
+     /* opacity: 0.5; */
+}
+
+p {
+    background-color: rgb(240, 128, 128, 0.4);
+    border: 3px solid rosybrown;
+    /* opacity: 0.5; */
+}

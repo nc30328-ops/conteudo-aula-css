@@ -1,0 +1,7 @@
+body {
+background-image: url(/Aula1/img/castelo.jpg);
+background-repeat: no-repeat;
+color:rgb(238, 216, 220);
+background-size: cover;
+background-attachment: fixed;
+}

@@ -1,0 +1,9 @@
+body{
+ background-color: rosybrown;   
+}
+
+.ex1 li{
+    list-style-image: url('../img/butterfly.svg');
+    list-style-type: disc;
+    
+}

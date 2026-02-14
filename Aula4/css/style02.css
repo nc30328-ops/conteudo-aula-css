@@ -1,0 +1,43 @@
+body{
+    background-color: lemonchiffon;
+}
+
+.link:link {
+    color: black;
+    background-color: aqua;
+}
+
+.link:visited {
+    color: deeppink;
+    background-color: bisque;
+}
+
+.link:hover {
+    color:palevioletred;
+    background-color: blueviolet;
+}
+
+a.link:active {
+    color: blueviolet;
+    background-color: cadetblue;
+}
+
+.link-btn:link, .link-btn:visited{
+   /* background-color: rosybrown;*/
+   background-color: transparent;
+   border: 3px solid mediumpurple;
+    color:rgb(93, 39, 121);
+    padding: 20px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.link-btn:hover, .link-btn:active {
+    background-color: darkorchid;
+    color: antiquewhite;
+    border: 3px solid mediumpurple;
+    transition: .5s;
+}
+

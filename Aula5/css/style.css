@@ -1,0 +1,126 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.ex1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(156, 20, 20);
+    gap: 10px;
+}
+
+.ex1 div{
+    background-color: rgb(82, 57, 25);
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* Exemplo flex-direction: column */
+
+.ex2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #b83b3b;
+    gap: 10px;
+}
+
+.ex2 div {
+    background-color:rgb(212, 43, 94);
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Exemplo flex-direction: row-reverse*/
+.ex3 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #b83b3b;
+    gap: 10px;
+}
+.ex3 div {
+    background-color: rgb(212, 43, 94);
+    color: rgb(235, 226, 226);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Exemplo flex-direction: collumn-reverse*/
+.ex4 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #c22626;
+    gap: 10px;
+}
+
+.ex4 div {
+    background-color: rgb(206, 83, 120);
+    color: rgb(235, 226, 226);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*Exemplo flex-wrap: nowrap*/
+.ex5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #550404;
+    gap: 10px;
+}
+
+.ex5 div {
+    background-color: rgb(41, 2, 13);
+    color: rgb(235, 226, 226);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Exemplo flex-wrap: wrap*/
+.ex6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #550404;
+    gap: 10px;
+}
+
+.ex6 div {
+    background-color: rgb(41, 2, 13);
+    color: rgb(235, 226, 226);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Exemplo flex-wrap: wrap-reverse*/
+.ex7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    background-color: #550404;
+    gap: 10px;
+}
+
+.ex7 div {
+    background-color: rgb(41, 2, 13);
+    color: rgb(235, 226, 226);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}

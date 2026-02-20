@@ -1,0 +1,26 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.ex1 {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    background-color: antiquewhite;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(52, 230, 170);
+    align-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+    .ex1{
+     align-items: center;
+    flex-direction: column;
+    }
+}
